@@ -9,7 +9,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
       try {
         const screenshot = await captureVisibleTab();
 
-        const apiResponse = await fetch("http://localhost:3000/analyze", {
+        const apiResponse = await fetch(""https://myapi.vercel.app/api/analyze"", {
           method: "POST",
           headers: {
             "Content-Type": "application/json"
