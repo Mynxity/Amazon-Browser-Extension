@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Amazon Listing Validator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      width: 340px;
+      padding: 12px;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    .result {
+      margin-top: 12px;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      white-space: pre-wrap;
+    }
+    .muted {
+      color: #666;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <h3>Amazon Listing Validator</h3>
+  <button id="checkBtn">Check Listing</button>
+  <div class="muted" id="status">Ready.</div>
+  <div class="result" id="result"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
