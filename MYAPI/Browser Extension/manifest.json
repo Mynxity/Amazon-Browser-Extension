@@ -13,7 +13,7 @@
 
   "host_permissions": [
     "https://*.amazon.com/*",
-    "https://Potential.vercel.app/*"
+    ""https://myapi.vercel.app/*""
   ],
 
   "background": {
